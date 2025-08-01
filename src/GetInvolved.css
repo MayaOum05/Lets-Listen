@@ -87,7 +87,7 @@ a:hover {
     margin: 2.5rem 0;
     width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -193,3 +193,46 @@ button[type="submit"]:focus {
     width: 100%;
   }
 }
+
+
+.div60 h2,
+.div40 h3 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.accordion-card {
+  border: 1px solid #3E21B7;
+  background-color: #12035B;
+  color: white;
+  margin-bottom: 0.75rem;
+  border-radius: 5px;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.accordion-header {
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 0 1rem 1rem 1rem;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.arrow {
+  font-size: 1.2rem;
+}
+

@@ -1,6 +1,3 @@
-
-
-
 export default function 
 FormInput({ label, type = "text", name, placeholder }) 
 {

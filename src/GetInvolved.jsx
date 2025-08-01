@@ -1,5 +1,6 @@
 import './GetInvolved.css';
 import FormInput from './components/FormInput';
+import AccordionCard from './components/AccordionCard';
 
 export default function GetInvolved(props){
     console.log(props)
@@ -53,6 +54,37 @@ return(
 
   <aside className="div40">
     <h3>Available Openings</h3>
+    <p>Whether you're a coder, creator or coordinator, your skills can empower communities. Explore roles and get ready today.</p>
+    <AccordionCard
+  title="AI Research Intern"
+  description="Contribute to our ML models and experiment with data science pipelines."
+/>
+
+<AccordionCard
+  title="Frontend Developer"
+  description="Help enhance our web experience with React and Next.js."
+/>
+
+<AccordionCard
+  title="Community Coordinator"
+  description="Engage with users and build partnerships with local tech groups."
+/>
+
+<AccordionCard
+  title="Content Strategist"
+  description="Plan blog and newsletter content to reflect our mission."
+/>
+
+<AccordionCard
+  title="UX/UI Designer"
+  description="Design user-friendly and accessible interfaces for our platform."
+/>
+
+<AccordionCard
+  title="Project Manager"
+  description="Coordinate across teams to ensure deliverables are met on time."
+/>
+
   </aside>
 </section>
 
