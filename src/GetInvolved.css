@@ -16,6 +16,10 @@ h1 {
   }
 }
 
+h2, h3 {
+  font-size: 1.75rem;
+}
+
 .top-section-gi {
     width: 100%;
   display: flex;
@@ -97,4 +101,95 @@ a:hover {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+input {
+  width: 50%;
+  height: 2.5rem;
+  color: white;
+  font-size: 1rem;
+  background-color:#12035B;
+  border: 1px solid #3E21B7;
+  border-radius: 5px;
+  margin: 7.5px 0;
+  padding-left: .75rem;
+   box-sizing: border-box;
+}
+
+@media (max-width: 980px) {
+ input {
+    width: 100%;
+  }
+}
+
+input::placeholder {
+  color: white;
+  opacity: .75; /* Ensures it's not semi-transparent in Firefox */
+}
+
+
+.custom-file-label {
+  width: 50%;
+  height: 2.5rem;
+  color: white;
+  opacity: 0.75;
+  font-size: 1rem;
+  background-color: #12035B;
+  border: 1px solid #3E21B7;
+  border-radius: 5px;
+  margin: 7.5px 0;
+  padding-left: 0.75rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+
+/* Responsive behavior */
+@media (max-width: 980px) {
+  .custom-file-label {
+    width: 100%;
+  }
+}
+
+/* Hide real input */
+.hidden-file-input {
+  display: none;
+}
+
+.file-upload-wrapper{
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+button[type="submit"] {
+  width: 50%;
+  height: 2.5rem;
+  background-color: #3E21B7;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #3E21B7;
+  margin-top: 15px !important;
+  padding-left: 0.75rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover and focus states (optional but nice) */
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: #14054d;
+  color: white;
+}
+
+/* Responsive match */
+@media (max-width: 980px) {
+  button[type="submit"] {
+    width: 100%;
+  }
 }
