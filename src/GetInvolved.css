@@ -109,7 +109,7 @@ input {
   color: white;
   font-size: 1rem;
   background-color:#12035B;
-  border: 1px solid #3E21B7;
+  border: 1px solid #4431D5;
   border-radius: 5px;
   margin: 7.5px 0;
   padding-left: .75rem;
@@ -135,7 +135,7 @@ input::placeholder {
   opacity: 0.75;
   font-size: 1rem;
   background-color: #12035B;
-  border: 1px solid #3E21B7;
+  border: 1px solid #4431D5;
   border-radius: 5px;
   margin: 7.5px 0;
   padding-left: 0.75rem;
@@ -168,11 +168,11 @@ input::placeholder {
 button[type="submit"] {
   width: 50%;
   height: 2.5rem;
-  background-color: #3E21B7;
+  background-color: #4431D5;
   color: rgba(255, 255, 255, 0.75);
   font-size: 1rem;
   border-radius: 5px;
-  border: 1px solid #3E21B7;
+  border: 1px solid #2B1A9F;
   margin-top: 15px !important;
   padding-left: 0.75rem;
   box-sizing: border-box;
@@ -202,33 +202,32 @@ button[type="submit"]:focus {
 }
 
 .accordion-card {
-  border: 1px solid #3E21B7;
-  background-color: #12035B;
+  width: 100%;
+  background-color: #362D8E;
+  border: 1px solid #666699;
   color: white;
-  margin-bottom: 0.75rem;
   border-radius: 5px;
-  padding: 0;
-  overflow: hidden;
   transition: all 0.3s ease;
+  margin-bottom: 1rem;
 }
 
 .accordion-header {
-  width: 100%;
   background: none;
   border: none;
   color: white;
-  font-size: 1rem;
-  padding: 1rem;
+  font-size: 1.25rem;
+  padding: 0 1rem;
   text-align: left;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   cursor: pointer;
 }
 
+
 .accordion-content {
-  padding: 0 1rem 1rem 1rem;
-  font-size: 0.95rem;
+  margin-top: -1rem;
+  padding: 0 1rem;
+  font-size: 14px;
   opacity: 0.85;
 }
 
@@ -236,3 +235,15 @@ button[type="submit"]:focus {
   font-size: 1.2rem;
 }
 
+.accordion-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .accordion-grid {
+    grid-template-columns: 1fr;
+  }
+}
