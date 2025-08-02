@@ -55,8 +55,8 @@ return(
   <aside className="div40">
 
     <h3>Available Openings</h3>
-    <p>Whether you're a coder, creator or coordinator, your skills can empower communities. Explore roles and get ready today.</p>
-    
+    <p>Explore roles and get ready today.</p>
+
     <div className="accordion-grid">
       <AccordionCard title="AI Research Intern" description="Contribute to our ML models and experiment with data science pipelines." />
       <AccordionCard title="Frontend Developer" description="Help enhance our web experience with React and Next.js." />
