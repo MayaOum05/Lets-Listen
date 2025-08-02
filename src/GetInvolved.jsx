@@ -8,8 +8,6 @@ return(
 
 <main className="gi-main">
 
-
-
   <section className="top-section-gi">
       <div className="titlediv" >
         <h1>Get Involved With Us!</h1>
@@ -19,44 +17,35 @@ return(
       </div>
   </section>
 
-
-
   <section className="middle-section-gi">
   <div className="div60">
     <h2>Join Us</h2>
     <p>If you're passionate about what we do and would love to be part of our gowing team. We'd love to hear from you!</p>
+    <h3 className="submitresume">Submit Your Resume</h3>
 
-    <h3>Submit Your Resume</h3>
 
-    <form>
+
+
+
+    {/* TODO: Hook up this form to backend or form handler when available */}
+    <form onSubmit={(e) => e.preventDefault()}>
+
+
+
+
+
       <FormInput label="Name" name="name" placeholder="Name" />
       <FormInput label="Email" name="email" type="email" placeholder="Email" />
-
-      
-  <label htmlFor="resume-upload" className="custom-file-label">
-    Upload Resume
-  </label>
-  <input
-    type="file"
-    id="resume-upload"
-    className="hidden-file-input"
-    name="resume"
-  />
-
-
+      <label htmlFor="resume-upload" className="custom-file-label">Upload Resume</label>
+      <input type="file" id="resume-upload" className="hidden-file-input" name="resume" />
       <FormInput label="Short Message / Introduction" name="message" placeholder="Short Message / Introduction" />
       <button type="submit">Submit</button>
     </form>
-
     <p>We'll reach out to you if your skills match any future openings!</p>
-
   </div>
-
   <aside className="div40">
-
     <h3>Available Openings</h3>
     <p>Explore roles and get ready today.</p>
-
     <div className="accordion-grid">
       <AccordionCard title="AI Research Intern" description="Contribute to our ML models and experiment with data science pipelines." />
       <AccordionCard title="Frontend Developer" description="Help enhance our web experience with React and Next.js." />
@@ -65,11 +54,8 @@ return(
       <AccordionCard title="UX/UI Designer" description="Design user-friendly and accessible interfaces for our platform." />
       <AccordionCard title="Project Manager" description="Coordinate across teams to ensure deliverables are met on time." />
     </div>
-
   </aside>
 </section>
-
-
 
   <section className='bottom-section-gi'>
     <h2>Contact Us</h2>
@@ -85,7 +71,5 @@ return(
   </section>
 
 </main>
-
-
 )
 }
