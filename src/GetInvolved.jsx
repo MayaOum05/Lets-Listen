@@ -35,7 +35,7 @@ return(
 
 
       <FormInput label="Name" name="name" placeholder="Name" />
-      <FormInput label="Email" name="email" type="email" placeholder="Email" />
+      <FormInput label="Email" name="email" type="email" placeholder="Email" required/>
       <label htmlFor="resume-upload" className="custom-file-label">Upload Resume</label>
       <input type="file" id="resume-upload" className="hidden-file-input" name="resume" />
       <FormInput label="Short Message / Introduction" name="message" placeholder="Short Message / Introduction" />
