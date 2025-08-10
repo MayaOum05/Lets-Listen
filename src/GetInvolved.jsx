@@ -10,7 +10,7 @@ return(
 
   <section className="top-section-gi">
       <div className="titlediv" >
-        <h1>Get Involved With Us!</h1>
+        <h1 className="text-blue-500">Get Involved With Us!</h1>
       </div>
       <div className="logodiv">
         <img src={props.letslistenlogo} alt="The Let's Listen logo"/>

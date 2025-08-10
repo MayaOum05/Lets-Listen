@@ -10,7 +10,7 @@ export default function AccordionCard({ title, description }) {
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
       >
-        <span className="arrow">{isOpen ? "▾" : "▸"}</span>
+        <span className="arrow">{isOpen ? "⌄" : "›"}</span>
         <h4 className="title">{title}</h4>
       </button>
 

@@ -1,5 +1,5 @@
 .gi-main  {
-  background-color: #170667;
+  background-color: #170566;
   color: #fff;
   width: 100%;
   padding: 2.5rem 5rem;
@@ -131,7 +131,7 @@ input {
   color: white;
   font-size: 1rem;
   background-color:#12035B;
-  border: 1px solid #4431D5;
+  border: 1px solid #4959E4;
   border-radius: 5px;
   margin: 7.5px 0;
   padding-left: .75rem;
@@ -157,7 +157,7 @@ input::placeholder {
   opacity: 0.75;
   font-size: 1rem;
   background-color: #12035B;
-  border: 1px solid #4431D5;
+  border: 1px solid #4959E4;
   border-radius: 5px;
   margin: 7.5px 0;
   padding-left: 0.75rem;
@@ -190,7 +190,7 @@ input::placeholder {
 button[type="submit"] {
   width: 50%;
   height: 2.5rem;
-  background-color: #4431D5;
+  background-color: #4959E4;
   color: rgba(255, 255, 255, 0.75);
   font-size: 1rem;
   border-radius: 5px;
@@ -258,7 +258,9 @@ button[type="submit"]:focus {
 
 .arrow {
   font-size: 1.2rem;
-}
+  margin-right: 5px;
+  margin-bottom: 5px;
+} 
 
 .accordion-grid {
   display: grid;
