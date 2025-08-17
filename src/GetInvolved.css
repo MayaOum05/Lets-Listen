@@ -12,7 +12,7 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 @media (max-width: 545px) {
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2, h3 {
-  font-size: 1.75rem;
+  font-size: 3.5rem;
 }
 
 @media (max-width: 768px) {
@@ -51,13 +51,17 @@ h4{
   justify-content: center;
 }
 
-.titlediv,
-.div60 {
+.titlediv
+{
     width:60%;
 }
 
-.div40{
-    width:40%;
+.contact-div {
+    width:50%;
+}
+
+.accordion-div{
+    width:50%;
 }
 
 .logodiv {
@@ -217,8 +221,8 @@ button[type="submit"]:focus {
 }
 
 
-.div60 h2,
-.div40 h3 {
+.contact-div h2,
+.accordion-div h3 {
   margin: 0;
   line-height: 1.2;
 }

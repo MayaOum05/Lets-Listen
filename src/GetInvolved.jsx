@@ -18,7 +18,7 @@ return(
   </section>
 
   <section className="middle-section-gi">
-  <div className="div60">
+  <div className="contact-div">
     <h2>Join Us</h2>
     <p>If you're passionate about what we do and would love to be part of our gowing team. We'd love to hear from you!</p>
     <h3 className="submitresume">Submit Your Resume</h3>
@@ -43,7 +43,7 @@ return(
     </form>
     <p>We'll reach out to you if your skills match any future openings!</p>
   </div>
-  <aside className="div40">
+  <aside className="accordion-div">
     <h3>Available Openings</h3>
     <p>Explore roles and get ready today.</p>
     <div className="accordion-grid">
